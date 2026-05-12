@@ -1,5 +1,3 @@
-# Tarea-
-
 # Práctica: Patrones de Diseño Creacionales
 **Escuela Profesional de Ingeniería de Sistemas - UNA**
 

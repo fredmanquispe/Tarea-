@@ -1,5 +1,20 @@
 # Tarea-
 
+# Práctica: Patrones de Diseño Creacionales
+**Escuela Profesional de Ingeniería de Sistemas - UNA**
+
+## Información del Estudiante
+* **Nombre:** [Tu Nombre y Apellidos Aquí]
+* **Código:** [Tu Código de Estudiante]
+* **Curso:** Lenguajes de Programación Orientada a Objetos II
+* **Semestre:** [Tu Semestre, ej. IV]
+* **Docente:** Mg. Aldo Hernán Zanabria Gálvez
+
+---
+
+## Descripción del Proyecto
+Este repositorio contiene la implementación de los patrones de diseño **Singleton**, **Factory Method** y **Builder**, desarrollados como parte de las actividades de laboratorio de las semanas 4 y 5. El objetivo es demostrar el dominio de la gestión de instancias y la construcción de objetos complejos en C++ y Python.
+
 ## Informe Comparativo de Patrones Creacionales
 
 A continuación, se presenta un análisis comparativo de los tres patrones implementados en esta práctica:

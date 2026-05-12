@@ -11,6 +11,19 @@
 ## Descripción del Proyecto
 Este repositorio contiene la implementación de los patrones de diseño **Singleton**, **Factory Method** y **Builder**, desarrollados como parte de las actividades de laboratorio de las semanas 4 y 5. El objetivo es demostrar el dominio de la gestión de instancias y la construcción de objetos complejos en C++ y Python.
 
+## Trabajo de Investigación (Patrones Creacionales)
+
+### 1. Django ORM y el uso de Factory
+En el framework **Django (Python)**, el patrón Factory se manifiesta a través de los `Managers`. Cuando utilizamos `Model.objects.create()`, el `Manager` actúa como una fábrica que encapsula la lógica de instanciación del objeto y su persistencia en la base de datos. Esto permite que el desarrollador cree registros sin preocuparse por la complejidad interna de la creación del objeto y su relación con el motor de base de datos.
+
+### 2. Spring Boot y el patrón Singleton
+En el ecosistema de **Spring Boot (Java)**, el patrón Singleton es el núcleo de la gestión de dependencias. Por defecto, todos los objetos gestionados por el contenedor de Spring (conocidos como *Beans*) son **Singletons**. Spring garantiza que solo exista una instancia de cada Bean por contexto de aplicación, lo que optimiza el uso de memoria y asegura que servicios como la conexión a bases de datos o controladores de seguridad sean compartidos de manera consistente por toda la aplicación.
+
+### 3. Patrón Builder en bibliotecas de Interfaz de Usuario (UI)
+El patrón Builder es ampliamente utilizado en el desarrollo de interfaces gráficas para configurar componentes complejos de forma legible:
+* **Android/Flutter:** Se utiliza en la creación de cuadros de diálogo (`AlertDialog.Builder`). Permite configurar el título, el mensaje, los botones y los iconos paso a paso antes de llamar al método `.show()` o `.create()`.
+* **Qt (C++):** Se emplea para la construcción de escenas gráficas y layouts donde se definen múltiples propiedades de un widget antes de su renderización final, evitando constructores con excesivos parámetros opcionales.
+
 ## Informe Comparativo de Patrones Creacionales
 
 A continuación, se presenta un análisis comparativo de los tres patrones implementados en esta práctica:
